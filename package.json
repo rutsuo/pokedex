@@ -1,0 +1,37 @@
+{
+  "name": "pokedex",
+  "version": "0.0.1",
+  "description": "A RESTful Pokédex API built with TypeScript and Express. Fetch detailed Pokémon data, abilities, types, and evolutions with ease!",
+  "keywords": [
+    "api",
+    "express",
+    "typescript"
+  ],
+  "homepage": "https://github.com/rutsuo/pokedex#readme",
+  "bugs": {
+    "url": "https://github.com/rutsuo/pokedex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutsuo/pokedex.git"
+  },
+  "license": "MIT",
+  "author": "rutsuo",
+  "type": "commonjs",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon --ext ts --exec ts-node src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
